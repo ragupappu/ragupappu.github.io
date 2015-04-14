@@ -50,7 +50,8 @@ body {
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  //line-height: 1.5;
+  line-height: 1.8;
 }
 @media (min-width: 38em) {
   html {
@@ -59,7 +60,8 @@ html {
 }
 
 body {
-  color: #515151;
+  //color: #515151;
+  color: #313131;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -98,9 +100,19 @@ h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem;
 }
-h4, h5, h6 {
+h4 {
   margin-top: 1rem;
   font-size: 1rem;
+}
+
+h5 {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+}
+
+h6 {
+  margin-top: 1rem;
+  font-size: 0.75rem;
 }
 
 /* Body text */
@@ -132,8 +144,8 @@ hr {
   position: relative;
   margin: 1.5rem 0;
   border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+  border-top: 3px double #eee;
+  border-bottom: 3px double #ddd;
 }
 
 abbr {
@@ -153,10 +165,12 @@ pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
 }
 code {
-  padding: .25em .5em;
-  font-size: 85%;
+  //padding: .25em .5em;
+  padding: .20em .20em;
+  font-size: 100%;
   color: #bf616a;
-  background-color: #f9f9f9;
+  //background-color: #f9f9f9;
+  background-color: #eeeeee;
   border-radius: 3px;
 }
 pre {
@@ -164,13 +178,17 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   padding: 1rem;
-  font-size: .8rem;
+  //font-size: .8rem;
+  font-size: 95%;
   line-height: 1.4;
   white-space: pre;
-  white-space: pre-wrap;
-  word-break: break-all;
-  word-wrap: break-word;
-  background-color: #f9f9f9;
+  //white-space: pre-wrap;
+  //word-break: break-all;
+  //word-wrap: break-word;
+  overflow-x: auto;
+  //background-color: #f9f9f9;
+  background-color: #eeeeee;
+  border-radius: 4px;
 }
 pre code {
   padding: 0;
@@ -187,6 +205,7 @@ pre code {
 .highlight pre {
   margin-bottom: 0;
 }
+
 
 /* Gist via GitHub Pages */
 .gist .gist-file {
@@ -207,7 +226,7 @@ pre code {
   padding: 0;
   color: inherit;
   background-color: transparent;
-  border-radius: 0;
+  border-radius: 4px;
 }
 
 /* Quotes */
@@ -236,10 +255,13 @@ img {
 
 /* Tables */
 table {
+  font-family: "PT Sans", Arial, "Helvetica", sans-serif;
+  font-size: 80%;
   margin-bottom: 1rem;
   width: 100%;
   border: 1px solid #e5e5e5;
   border-collapse: collapse;
+
 }
 td,
 th {
@@ -248,7 +270,7 @@ th {
 }
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9;
+  background-color: #e9e9e9;
 }
 
 
@@ -366,7 +388,7 @@ tbody tr:nth-child(odd) th {
   margin-top: 0;
 }
 .related-posts li small {
-  font-size: 75%;
+  font-size: 90%;
   color: #999;
 }
 .related-posts li a:hover {

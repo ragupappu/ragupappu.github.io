@@ -9,18 +9,32 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
+title:               Ragu Pappu
+tagline:             'Technical thoughts, mostly'
+description:         'A blog of my technical activities'
+url:                 http://www.ragupappu.com/
 baseurl:             /
 paginate:            5
 
+# Pages
+pages:
+  Archive: '/archive'
+  About: '/about'
+  Feed: '/atom.xml'
+
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              'Ragu Pappu'
+  url:               http://www.ragupappu.com/
+
+github:
+  repo:              github.com/ragupappu/ragupappu.github.io
+
+# Theme
+theme:
+ 
+ # Localization Strings
+ str_continue_reading: "Continue reading..."
 
 # Custom vars
 version:             1.0.0
