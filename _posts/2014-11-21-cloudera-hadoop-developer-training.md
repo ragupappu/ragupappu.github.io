@@ -9,6 +9,7 @@ output:
 comments: True
 ---
 Last week (Nov 11-14) I attended the [Cloudera Developer Training for Apache Hadoop](http://www.cloudera.com/content/cloudera/en/training/courses/developer-training.html) course and in this post I share my experience and takeaways from that training. But first, a brief bit about me to lay out the context for my experience with this training. I have worked in the Telecommunications industry and have several years experience with Embedded Systems software design and development and about 2 months ago I decided to work in the Big Data space, which led me to this training course.
+
 ###Research and Preparation
 I did a lot of research online and discussed with friends on ways to get started in Big Data. The general recommendation was to start by getting trained in Hadoop. I decide to go with [Cloudera](http://www.cloudera.com/content/cloudera/en/home.html) training because it is the clear leader in the Big Data space. I reviewed the training course topics for the Apache Hadoop course, and with an intent to get credentialed as a [Cloudera Certified Developer for Apache Hadoop](http://www.cloudera.com/content/cloudera/en/training/certification/ccdh.html), a certification well-regarded in the industry, I registered for the Developer Training for Hadoop course.
 
