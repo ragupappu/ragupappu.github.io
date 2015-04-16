@@ -7,6 +7,7 @@ output:
   html_document:
     keep_md: true
 comments: True
+tags: [hadoop, cloudera]
 ---
 Last week (Nov 11-14) I attended the [Cloudera Developer Training for Apache Hadoop](http://www.cloudera.com/content/cloudera/en/training/courses/developer-training.html) course and in this post I share my experience and takeaways from that training. But first, a brief bit about me to lay out the context for my experience with this training. I have worked in the Telecommunications industry and have several years experience with Embedded Systems software design and development and about 2 months ago I decided to work in the Big Data space, which led me to this training course.
 

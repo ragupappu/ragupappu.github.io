@@ -7,6 +7,7 @@ output:
   html_document:
     keep_md: true
 comments: True
+tags: [diy, desktop, pc]
 ---
 I needed to run a 64-bit Virtual Machine on my laptop when I found out that it did not support virtualization even though it had a 64-bit CPU. That got me started on acquiring a new PC. I decided that I wanted a mid-to-high-end PC -- not quite a high-end gaming PC -- but one with sufficient horsepower to be able to run multi-threaded applications with ease. I settled on the following minimum configuration: a 64-bit CPU with hardware support for virtualization, 8GB RAM, and 256GB hard drive. Superior graphics performance was not on my list of must-haves.
 

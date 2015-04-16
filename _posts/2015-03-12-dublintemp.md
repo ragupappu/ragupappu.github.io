@@ -7,6 +7,7 @@ output:
   html_document:
     keep_md: true
 comments: True
+tags: [r, data visualization]
 ---
 
 In the data visualization community Edward Tufte's chart of [New York City 2003 weather](http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=00014g) is well-known. A few weeks ago Brad Boehmke published a blogpost with a similar chart for his city, Dayton, titled [Dayton's weather in 2014](http://rpubs.com/bradleyboehmke/weather_graphic) which inspired me to do a similar visualization for my city, Dublin, California. The result is the chart below. The R code to build the chart is located [here](https://github.com/rpappu0206/tufte/tree/master/src) and it draws from Boehmke's post but also includes original code. Further below I describe the steps used to arrive at the chart.

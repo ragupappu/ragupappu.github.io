@@ -20,6 +20,7 @@ paginate:            5
 pages:
   Archive: '/archive'
   About: '/about'
+  Tags: '/tags'
   Feed: '/atom.xml'
 
 # About/contact
@@ -32,9 +33,9 @@ github:
 
 # Theme
 theme:
- 
+
  # Localization Strings
  str_continue_reading: "Continue reading..."
 
 # Custom vars
-version:             1.0.0
+version:             1.0.1
