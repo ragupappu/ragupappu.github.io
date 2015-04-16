@@ -7,6 +7,7 @@ output:
   html_document:
     keep_md: true
 comments: True
+tags: [hadoop, big data, linux]
 ---
 In this post I list steps to install Hadoop on LinuxMint 17. After installing Hadoop I also list the steps to set up a single-node cluster. My system is a laptop running Windows 7 Home Premium. On this laptop Linux Mint is hosted on Oracle's VirtualBox VM 4.3.16r59572 which is itself hosted on Windows 7. I am a Hadoop beginner and a relatively light user (less experienced?) of Linux and my attempt here is to document the installation and set up process in detail to help the reader understand the purpose and motivations for some of the steps in the installation process.
 
