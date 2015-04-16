@@ -11,7 +11,7 @@ layout: default
   <span class="post-tag-box" style="display:inline-block;">
    {% for item in (0..page.tags.size) %}{% unless forloop.last %}
      {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-     <a href="{{ site.url }}tags/#{{ this_word | escape_cgi }}">{{ this_word }}</a>
+     <a href="http://{{ site.url }}tags/#{{ this_word | escape_cgi }}">{{ this_word }}</a>
    {% endunless %}{% endfor %}
   </span>
   </div>
