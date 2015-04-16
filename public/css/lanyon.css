@@ -435,6 +435,68 @@ a.pagination-item:hover {
           transform: translateX(-14rem);
 }
 
+/*****************************************************************************/
+/*
+/* Tags
+/*
+/* Source: https://github.com/lanyonm/lanyonm.github.io/blob/master/_sass/main.scss
+/*
+/*****************************************************************************/
+.tag-box {
+list-style: none;
+margin: 0;
+padding: 4px 0;
+overflow: hidden;
+*zoom: 1;
+}
+.tag-box:before, .tag-box:after {
+display: table;
+content: "";
+line-height: 0;
+}
+.tag-box:after {
+clear: both;
+}
+.tag-box.inline li {
+float: left;
+font-size: 12px;
+font-size: 0.875rem;
+line-height: 2.5;
+}
+.tag-box a {
+padding: 4px 6px;
+margin: 2px;
+background-color: #e6e6e6;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+text-decoration: none;
+}
+.tag-box a span {
+vertical-align: super;
+font-size: 10px;
+font-size: 0.625rem;
+}
+
+/*
+* For tags below the post title
+*/
+.post-tag-box {
+  display: block;
+  margin-top: -.5rem;
+  margin-bottom: 1rem;
+  font-size: 95%;
+}
+
+.post-tag-box a {
+padding: 2px 6px;
+margin: 2px;
+background-color: #e6e6e6;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+text-decoration: none;
+}
 
 /*
  * Themes
