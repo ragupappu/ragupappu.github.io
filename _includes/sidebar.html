@@ -21,17 +21,18 @@
       {% if node.title != null %}
         {% if node.layout == "page" %}
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-        {% elsif node.title == 'Feed' %}
-          <a class="sidebar-nav-item" href="{{ node.url }}">{{ node.title }}</a>
         {% endif %}
       {% endif %}
     {% endfor %}
-
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
 
   <div class="sidebar-item">
+    <p class="social-icons">
+       <a href="https://github.com/ragupappu"><i class="fa fa-github fa-2x"></i></a>
+       <a href="https://twitter.com/ragupappu"><i class="fa fa-twitter fa-2x"></i></a>
+       <a href="https://www.linkedin.com/in/rpappu"><i class="fa fa-linkedin fa-2x"></i></a>
+       <a href="/atom.xml"><i class="fa fa-rss fa-2x"></i></a>
+       </p>
     <p>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>

@@ -11,7 +11,7 @@ relative_permalinks: true
 # Setup
 title:               Ragu Pappu
 tagline:             'Technical thoughts, mostly'
-description:         'A blog of my technical activities'
+description:         'Technical projects and notes by Ragu Pappu'
 url:                 http://www.ragupappu.com/
 baseurl:             /
 paginate:            5
@@ -21,7 +21,6 @@ pages:
   Archive: '/archive'
   About: '/about'
   Tags: '/tags'
-  Feed: '/atom.xml'
 
 # About/contact
 author:
@@ -38,4 +37,4 @@ theme:
  str_continue_reading: "Continue reading..."
 
 # Custom vars
-version:             1.0.1
+version:             1.0.2
