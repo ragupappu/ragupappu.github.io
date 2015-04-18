@@ -7,11 +7,11 @@ layout: default
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-title-footer">
-  <span class="post-date" style="display:inline-block">{{ page.date | date_to_string }}</span>
+  <span class="post-date" style="display:inline-block">{{ page.date | date_to_string }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
   <span class="post-tag-box" style="display:inline-block;">
    {% for item in (0..page.tags.size) %}{% unless forloop.last %}
      {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-     <a href="{{ site.url }}tags/#{{ this_word | escape_cgi }}">{{ this_word }}</a>
+     <a href="{{ site.url }}tags/#{{ this_word | escape_cgi }}"><i class="fa fa-tags fa-rotate-90 fa-sm"></i>{{ this_word }}</a>
    {% endunless %}{% endfor %}
   </span>
   </div>

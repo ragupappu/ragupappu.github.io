@@ -30,6 +30,10 @@ author:
 github:
   repo:              https://github.com/ragupappu/ragupappu.github.io
 
+sass:
+  sass_dir: _sass
+  style: :compressed
+
 # Theme
 theme:
 
@@ -37,4 +41,4 @@ theme:
  str_continue_reading: "Continue reading..."
 
 # Custom vars
-version:             1.0.2
+version:             1.0.3
