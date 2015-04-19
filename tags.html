@@ -12,7 +12,7 @@ title: Tags
   <ul class="tag-box inline">
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-    <a href="#{{ this_word | cgi_escape }}"><i class="fa fa-tags fa-rotate-90 fa-sm"></i>{{ this_word }}<span>{{ site.tags[this_word].size }}</span></a>
+    <span style="white-space: pre"><a href="#{{ this_word | cgi_escape }}"><i class="fa fa-tags fa-rotate-90 fa-sm"></i>{{ this_word }}<span>{{ site.tags[this_word].size }}</span></span></a>
     {% endunless %}{% endfor %}
   </ul>
 
