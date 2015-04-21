@@ -40,6 +40,7 @@ code {
   padding: .20em .20em;
   background-color: #eeeeee;
   border-radius: 3px;
+  font-size: 100%;
 }
 
 pre {
@@ -47,10 +48,15 @@ pre {
   white-space: pre;
   word-break: normal;
   word-wrap: normal;
-  font-size: 75%;
-  background-color: #eeeeee;
+  background-color: #f0f0f0;
   border-radius: 4px;
 }
+
+pre code {
+  color: #101010;
+  font-size: 95%;
+}
+
 
 /*****************************************************************************/
 /*
@@ -120,6 +126,7 @@ pre {
 
 /* Related posts */
 .related {
+  padding-top: 0.25rem;
   border-top: 3px solid #bbb;
 }
 
@@ -211,6 +218,24 @@ tbody tr:nth-child(odd) th {
   text-decoration: none;
 }
 
+.comments-count {
+  display: block;
+  margin: 1.0rem 0.2rem 0.5rem 0rem;
+  font-size: 90%;
+}
+
+.comments-count-icon {
+  padding: 2px 3px 2px 1px;
+  display: inline;
+  margin: 0.1rem 0.1rem 0.1rem 0rem;
+  font-size: 90%;
+}
+
+.comments-count-icon a {
+  text-decoration: none;
+}
+
+
 /*****************************************************************************/
 /*
 /* Themes
@@ -223,6 +248,47 @@ tbody tr:nth-child(odd) th {
 .theme-base-0d .related-posts li a:hover {
   color: #2a9fb5;
 }
+
+
+/*****************************************************************************/
+/*
+/* Social Media
+/*
+/*****************************************************************************/
+
+.social-media {
+  font-size: 85%;
+  line-height: 2.5;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+
+.social-media a {
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  background-color: #e6e6e6;
+}
+
+.social-media-box {
+  display: inline;
+  margin-left: 0.5rem;
+  border: 1.5px solid #c6c6c6;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.social-media-box a {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.social-media-box a:hover {
+  text-decoration: none;
+}
+
 
 /*****************************************************************************/
 /*
@@ -237,6 +303,12 @@ hr {
 }
 
 /* Smaller sized icons */
+.fa-sm-90{
+  font-size: 0.90em;
+  padding-right: 6px;
+  padding-left: 1px;
+}
+
 .fa-sm{
   font-size: 0.80em;
   padding-right: 2px;

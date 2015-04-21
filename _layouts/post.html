@@ -18,21 +18,25 @@ layout: default
   {{ content }}
 </div>
 
+<hr></hr>
+<div class="social-media">
+  {% include share-page.html %}
+</div>
+
 <div class="related">
   <h3 class="related-heading">Other Posts</h3>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
       <li>
         <h5>
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
+          <a href="{{ baseurl }}{{ post.url }}">{{ post.title }}</a>
+          <small>{{ post.date | date_to_string }}</small>
         </h5>
       </li>
     {% endfor %}
   </ul>
 </div>
+
 
 {% include comments.html %}
 {% include copyright.html %}
