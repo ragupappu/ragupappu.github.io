@@ -18,6 +18,27 @@ body {
   }
 }
 
+/*****************************************************************************/
+/*
+/* Container
+/*
+/* Liquid layout (specify widths in %)
+/*
+/*****************************************************************************/
+
+@media (min-width: 38em) {
+  .container {
+    max-width: 90%;
+    margin-left: 7%;
+  }
+}
+@media (min-width: 56em) {
+  .container {
+    max-width: 90%;
+    margin-left: 7%;
+  }
+}
+
 .center {
   text-align: center;
 }
@@ -95,6 +116,11 @@ pre code {
   text-decoration: none;
 }
 
+@media (min-width: 30em) {
+  width: 14%;
+  margin-left: 3%;
+}
+
 /*****************************************************************************/
 /*
 /* Posts and pages
@@ -105,6 +131,7 @@ pre code {
 .post {
   margin-bottom: 3em;
   font-size: 85%;
+  text-align: justify;
 }
 
 /* Blog post or page title */
