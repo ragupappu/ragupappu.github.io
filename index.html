@@ -1,7 +1,10 @@
 ---
 layout: default
 title: Home
+comments: True
 ---
+
+{% include comments_count.html %}
 
 <div class="posts">
   {% for post in paginator.posts %}
@@ -16,9 +19,11 @@ title: Home
 
       <div class="excerpt">
         {{ post.excerpt }}
-        <a href="{{ post.url }}">
-          {{ site.theme.str_continue_reading }}
-        </a>
+        <a href="{{ post.url }}">{{ site.theme.str_continue_reading }}</a>
+        <span class="comments-count">
+          <a class="comments-count-icon"><i class="fa fa-comment"></i></a>
+          <a href="{{ post.url }}#disqus_thread"> Comments</a>
+        </span>
       </div>
   </div>
   <hr></hr>
