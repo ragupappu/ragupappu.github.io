@@ -9,13 +9,12 @@ output:
 comments: True
 tags: [jekyll, github pages, website, lanyon]
 ---
-#GitHub Pages and Jekyll
 I wanted to spiffy up my plain-looking WordPress-hosted blog for some time now and I got to do it a few days back. While searching the how-tos online I discovered [GitHub Pages](https://pages.github.com/) and [Jekyll](http://www.jekyllrb.com/). GitHub Pages allows you to host your website for free and Jekyll lets you build static websites. It costs me ~$50 per year to host my blog on Wordpress so the free hosting on GitHub sounded like a great deal. On top of it the Jekyll website generator would allow the look and feel of the blog -- the design -- to be completely under my control. And so I took on the project. The project required [git](http://git-scm.com/) which was already installed on my desktop PC.
 
-#The Lanyon Theme
+##The Lanyon Theme
 There are several website [themes](http://jekyllthemes.org/) for building a Jekyll website. I wanted a minimalistic look and started with the [Poole](http://www.getpoole.com/) theme which provides a basic template for a website. Part way through I switched to the [Lanyon](http://lanyon.getpoole.com/) theme because it emphasizes content by hiding the navigation in a side drawer. It is minimalist not only in looks but also in features, providing only a template: it does not feature, for examples, "extras" such as an _Archive_ page, or a _Comments_ facility, or social media buttons, and so on. But that can be easily addressed since adding those extras is straightforward, and there are many resources on the web that show you how to do just that.
 
-#Website Build Steps
+##Website Build Steps
 I built my website using these main steps:
 
 * Started by setting up a repository using instructions on [GitHub Pages](https://pages.github.com/)
@@ -30,7 +29,7 @@ Next, I opened up a browser and went to http://localhost:4000 to look at my webs
 
 I then made design changes -- added pages, changed fonts, tweaked colors, etc -- and when I was satisfied 'pushed' all of the changes on to my repository on GitHub. Once the changes were in GitHub my official website was accessible on the Internet.
 
-#Website Design Changes
+##Website Design Changes
 Over the past few days I have made a number of changes to the Lanyon theme which I list below, and where available, provide the how-to links. The code for this site is available on [my GitHub repo](https://github.com/ragupappu/ragupappu.github.io/).
 
 * Added _About_, and _Archive_ pages using [Joshua Lande's](http://joshualande.com/jekyll-github-pages-poole/) Poole post
@@ -48,7 +47,7 @@ Tools are available to migrate posts from Wordpress to other sites but since I h
 
 After pushing the initial set of website changes on to my GitHub repository, [ragupappu.github.io](http://ragupappu.github.io/), I linked my personal domain [ragupappu.com](https://www.ragupappu.com) to it. My domain is hosted by [Namecheap](http://www.namecheap.com) and I used David Ensinger's instructions [here](http://davidensinger.com/2013/03/setting-the-dns-for-github-pages-on-namecheap/) to link the two.
 
-#Quick Links
+##Quick Links
 * [GitHub Pages]()
 * [Jekyll](http://jekyllrb.com/)
 * [Jekyll Documentation](http://jekyllrb.com/docs/home/)
