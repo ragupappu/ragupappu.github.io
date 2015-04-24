@@ -65,12 +65,10 @@ code {
 }
 
 pre {
-  overflow: auto;
   white-space: pre;
-  word-break: normal;
-  word-wrap: normal;
   background-color: #f0f0f0;
   border-radius: 4px;
+  overflow: auto;
 }
 
 pre code {
