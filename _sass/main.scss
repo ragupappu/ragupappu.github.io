@@ -5,12 +5,30 @@
 /*****************************************************************************/
 
 html {
-  line-height: 1.8;
+  line-height: 1.85;
+  font-family: "Open Sans", Georgia, "Times New Roman", sans-serif;
+  word-spacing: 1.8px;
+  letter-spacing: 0.3px;
 }
 
 body {
   color: #313131;
 }
+
+/*****************************************************************************/
+/* Viewport Sized Typography
+/* Source: Code below from comments by Jeremy Lawson (May 04, 2012) here:
+/*   https://css-tricks.com/viewport-sized-typography/
+/*****************************************************************************/
+body {
+  font-size: 1.5vw;
+}
+@media screen and (max-width: 1000px) {
+  body {
+    font-size:15px;
+  }
+}
+/* end Viewport Sized Topography code */
 
 @media (min-width: 38em) {
   html {
@@ -129,7 +147,7 @@ pre code {
 .post {
   margin-bottom: 3em;
   font-size: 85%;
-  text-align: justify;
+  text-align: left;
 }
 
 /* Blog post or page title */
