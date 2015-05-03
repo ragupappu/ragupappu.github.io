@@ -5,10 +5,14 @@
 /*****************************************************************************/
 
 html {
-  line-height: 1.85;
-  font-family: "Open Sans", Georgia, "Times New Roman", sans-serif;
+  line-height: 1.90;
+  font-family: "Source Sans Pro", Georgia, "Times New Roman", sans-serif;
   word-spacing: 1.8px;
   letter-spacing: 0.3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 0.2px;
 }
 
 body {
@@ -21,18 +25,18 @@ body {
 /*   https://css-tricks.com/viewport-sized-typography/
 /*****************************************************************************/
 body {
-  font-size: 1.5vw;
+  font-size: 1.6vw;
 }
 @media screen and (max-width: 1000px) {
   body {
-    font-size:15px;
+    font-size:20px;
   }
 }
 /* end Viewport Sized Topography code */
 
 @media (min-width: 38em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
