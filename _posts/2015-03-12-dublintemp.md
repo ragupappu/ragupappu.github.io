@@ -89,7 +89,7 @@ library(ggplot2)
 library(grid)
 {% endhighlight %}
 
-After reading livermore\_15yr\_temps.csv (the file created in Stage1) into a dataframe, as a first step I prepared the data for analysis by cleaning up the datais to clean the data, that is, drop invalid records: those with Tmax and Tmin values of -9999, and those with invalid entries in any of the three flag columns - Measurement, Quality and Source. Next I converted the temperature data from Celcius to Fahrenheit.
+After reading livermore\_15yr\_temps.csv (the file created in Stage1) into a dataframe, as a first step I prepared the data for analysis by cleaning it up by dropping invalid records: those with Tmax and Tmin values of -9999, and those with invalid entries in any of the three flag columns - Measurement, Quality and Source. Next I converted the temperature data from Celcius to Fahrenheit.
 
 
 {% highlight r %}
