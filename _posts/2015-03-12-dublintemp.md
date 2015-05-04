@@ -75,7 +75,7 @@ all_temps_15yrs <- cbind(year, month, day, all_temps_15yrs) # Add back the 'spli
 write.csv(all_temps_15yrs, file="livermore_15yr_temps.csv", row.names=FALSE)
 {% endhighlight %}
 
-In Stage2 I clean the data first and then process it. I start by including these packages:
+In Stage2 I cleaned the data first and then processed it. I started by including these packages:
 
 
 {% highlight r %}
@@ -129,7 +129,7 @@ avg_temps_each_year <- all_temps_15yrs %>%
         ungroup()
 {% endhighlight %}
 
-Sorting the average yearly temperatures gives an interesting result: 2014 was the warmest of the past 15 years! In a [report](http://www.nasa.gov/press/2015/january/nasa-determines-2014-warmest-year-in-modern-record/) in January NASA and NOAA found that 2014 was the warmest year in modern record, and the above results for Dublin temperatures align with that finding.
+Sorting the average yearly temperatures yielded an interesting result: 2014 was the warmest of the past 15 years! In a [report](http://www.nasa.gov/press/2015/january/nasa-determines-2014-warmest-year-in-modern-record/) in January NASA and NOAA found that 2014 was the warmest year in modern record, and the above results for Dublin temperatures align with that finding.
 
 
 {% highlight text %}
@@ -234,7 +234,7 @@ PresentHighs <- Present %>%
         filter(record == "Y")           # filter for 2014 record high days
 {% endhighlight %}
 
-The data necessary to plot the chart is available at this point. We already have the x-axis variable but the y-axis variable needs to be created. Also, the y-axis values must show the degree symbol.
+At this point all data required to create the chart was available. We already had the x-axis variable but the y-axis variable needed to be created. Also, the y-axis values needed to show the degree symbol, which I created as follows.
 
 
 {% highlight r %}
@@ -247,7 +247,7 @@ degree_format <- function(x, ...) {
 yaxis_temps <- degree_format(seq(0, 120, by=10))
 {% endhighlight %}
 
-The stage is now set to actually create the chart using ggplot2. The chart is created in a series of steps adding layers at each step. Since I followed the steps in Boehmke's post I will not go into details except for short descriptions.
+The stage was now set to actually create the chart using ggplot2. The chart was created in a series of steps adding layers at each step. Since I followed the steps in Boehmke's post I will not go into details except for short descriptions.
 
 __Step 1__: Create the canvas for the plot and show the 14-year record highs and lows as the broad background
 
@@ -446,11 +446,5 @@ print(p)
 ![center](/../figs/step11-1.png) 
 
 Thanks to Boehmke's detailed post, I was able to create a chart of Dublin 2014 weather very much like Edward Tufte's New York 2003 weather chart.
-
-
-
-
-
-
 
 
