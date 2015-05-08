@@ -32,6 +32,15 @@ body {
     font-size:20px;
   }
 }
+
+pre {
+  font-size: 1.2vw;
+}
+@media screen and (max-width: 1000px) {
+  pre {
+    font-size:16px;
+  }
+}
 /* end Viewport Sized Topography code */
 
 @media (min-width: 38em) {
